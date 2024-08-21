@@ -1,0 +1,227 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    color: #333;
+}
+
+.hero {
+    height: 30vh;
+    background-image: url('mii.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero .name {
+    font-size: 3rem;
+    margin: 0;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+.about_me {
+    background-color: pink;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.about_me img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.about_content h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.about_content h3 {
+    font-size: 2rem;
+    color: #666;
+}
+
+.about_content p {
+    font-size: 1.1rem;
+    color: #444;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.skills {
+    background-color: #e9e9e9;
+    padding: 50px 0;
+}
+
+.title h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 270px;
+    text-align: center;
+    padding: 20px;
+}
+
+.card i {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.card h4 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.para p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.para .button {
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #333;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.para .button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.Hire {
+    background-color: #f8f8f8;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.Hire p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.Hire .button {
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    border: 2px solid #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.Hire .button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer .author {
+    font-size: 1.5rem;
+}
+
+.footer .reach {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.footer .social-media a {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    background: white;
+    border-radius: 50%;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 1.2rem;
+}
+
+.footer .social-media a:hover {
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.footer .copy {
+    font-size: 1rem;
+    margin-top: 10px;
+}
